@@ -5,11 +5,26 @@ namespace R5T.Salamis
 {
     public static class ExampleDirectoryPaths
     {
-        public const string WindowsDirectoryPath1Unindicated = @"C:\Directory1";
-        public const string WindowsDirectoryPath1 = @"C:\Directory1\";
-        public const string WindowsDirectoryPath2Unindicated = @"C:\Directory1\Directory2";
-        public const string WindowsDirectoryPath2 = @"C:\Directory1\Directory2\";
-        public const string WindowsDirectoryPath3UnIndicated = @"C:\Directory1\Directory2\Directory3";
-        public const string WindowsDirectoryPath3 = @"C:\Directory1\Directory2\Directory3\";
+        // Windows.
+        public const string WindowsDirectory01PathUnindicated = @"C:\Directory01";
+        public const string WindowsDirectory01Path = @"C:\Directory01\";
+        public const string WindowsDirectory02PathUnindicated = @"C:\Directory01\Directory02";
+        public const string WindowsDirectory02Path = @"C:\Directory01\Directory02\";
+        public const string WindowsDirectory03PathUnindicated = @"C:\Directory01\Directory02\Directory03";
+        public const string WindowsDirectory03Path = @"C:\Directory01\Directory02\Directory03\";
+        public const string WindowsDirectory04PathUnindicated = @"C:\Directory01\Directory04";
+        public const string WindowsDirectory04Path = @"C:\Directory01\Directory04";
+
+        public const string WindowsRootDirectoryPathUnindicated = @"C:"; // Also the same as the Windows volume path.
+        public const string WindowsRootDirectoryPath = @"C:\";
+
+        public const string WindowsDirecory01FromWindowsDirectory04PathUnresolved = @"C:\Directory4\..\..\Directory1\";
+
+        // Non-Windows.
+
+
+        // Mixed.
+
+
     }
 }

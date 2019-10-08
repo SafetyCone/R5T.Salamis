@@ -5,6 +5,6 @@ namespace R5T.Salamis
 {
     public static class ExampleDirectoryNames
     {
-        public const string Directory1Name = "Directory1";
+        public const string Directory01 = "Directory01";
     }
 }
