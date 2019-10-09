@@ -11,6 +11,6 @@ namespace R5T.Salamis
         public const string WindowsCDrive = @"C:";
 
         // Non-Windows
-        public const string NonWindowsMnt = @"/mnt";
+        public const string NonWindowsMnt = @"mnt";
     }
 }
