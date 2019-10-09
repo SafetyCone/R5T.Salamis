@@ -19,10 +19,26 @@ namespace R5T.Salamis
 
         public const string WindowsFile01FromWindowsDirectory02PathUnresolved = @"C:\Directory02\..\Directory01\File01.txt";
 
+        public static readonly string[] WindowsFile04PathParts = new string[]
+        {
+            ExampleRootPaths.WindowsCDrive,
+            ExampleDirectoryNames.Directory01,
+            ExampleDirectoryNames.Directory02,
+            ExampleDirectoryNames.Directory03,
+            ExampleFileNames.File04Name
+        };
+
         // Non-Windows.
         public const string NonWindowsFile01Path = @"/mnt/Directory01/File01.txt";
 
         public const string NonWindowsFile01FromNonWindowsDirectory02PathUnresolved = @"/mnt/Directory02/../Directory01/File01.txt";
+
+        public static readonly string[] NonWindowsFile01PathParts = new string[]
+        {
+            ExampleRootPaths.NonWindowsMnt,
+            ExampleDirectoryNames.Directory01,
+            ExampleFileNames.File01Name,
+        };
 
         // Mixed.
         public const string MixedWindowsDominantFile01Path = @"C:\Directory01/File01.txt";

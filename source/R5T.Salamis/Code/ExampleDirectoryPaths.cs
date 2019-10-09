@@ -18,10 +18,13 @@ namespace R5T.Salamis
         public const string WindowsRootDirectoryPathUnindicated = @"C:"; // Also the same as the Windows volume path.
         public const string WindowsRootDirectoryPath = @"C:\";
 
-        public const string WindowsDirecory01FromWindowsDirectory04PathUnresolved = @"C:\Directory4\..\..\Directory1\";
+        public const string WindowsDirectory01FromWindowsDirectory04PathUnresolved = @"C:\Directory4\..\..\Directory1\";
 
         // Non-Windows.
-
+        public const string NonWindowsDirectory01PathUnindicated = @"/mnt/Directory01";
+        public const string NonWindowsDirectory01Path = @"/mnt/Directory01/";
+        public const string NonWindowsDirectory02PathUnindicated = @"/mnt/Directory02";
+        public const string NonWindowsDirectory02Path = @"/mnt/Directory02/";
 
         // Mixed.
 
