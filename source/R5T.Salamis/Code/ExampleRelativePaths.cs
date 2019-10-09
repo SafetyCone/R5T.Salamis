@@ -18,7 +18,7 @@ namespace R5T.Salamis
 
         public const string WindowsFile01ToWindowsDirectory01Path = @"..\";
         public const string WindowsFile01ToWindowsDirectory02Path = @"..\Directory02\";
-        public const string WindowsFile01ToWindowsDirectory03Path = @"..\Directory02\Directory03";
+        public const string WindowsFile01ToWindowsDirectory03Path = @"..\Directory02\Directory03\";
 
         public const string WindowsDirectory01ToWindowsDirectory02Path = @"Directory02\";
         public const string WindowsDirectory02ToWindowsDirectory04Path = @"..\Directory04\";
