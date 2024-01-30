@@ -3,6 +3,9 @@
 
 namespace R5T.Salamis
 {
+    /// <summary>
+    /// OBSOLETE - See R5T.Z0066.
+    /// </summary>
     public static class ExampleDirectoryPaths
     {
         // Windows.
@@ -13,7 +16,7 @@ namespace R5T.Salamis
         public const string WindowsDirectory03PathUnindicated = @"C:\Directory01\Directory02\Directory03";
         public const string WindowsDirectory03Path = @"C:\Directory01\Directory02\Directory03\";
         public const string WindowsDirectory04PathUnindicated = @"C:\Directory01\Directory04";
-        public const string WindowsDirectory04Path = @"C:\Directory01\Directory04";
+        public const string WindowsDirectory04Path = @"C:\Directory01\Directory04\";
 
         public const string WindowsRootDirectoryPathUnindicated = @"C:"; // Also the same as the Windows volume path.
         public const string WindowsRootDirectoryPath = @"C:\";
@@ -27,6 +30,7 @@ namespace R5T.Salamis
         public const string NonWindowsDirectory02Path = @"/mnt/Directory01/Directory02/";
         public const string NonWindowsDirectory03PathUnindicated = @"/mnt/Directory01/Directory02/Directory03";
         public const string NonWindowsDirectory03Path = @"/mnt/Directory01/Directory02/Directory03/";
+
         public const string NonWindowsDirectory04PathUnindicated = @"/mnt/Directory01/Directory04";
         public const string NonWindowsDirectory04Path = @"/mnt/Directory01/Directory04/";
 
